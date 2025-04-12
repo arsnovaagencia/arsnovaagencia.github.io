@@ -1,0 +1,119 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+  margin: 0;
+}
+header {
+  background-color: #fff;
+  color: #e63946;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-bottom: 2px solid #f1f1f1;
+}
+header img {
+  max-width: 160px;
+  margin-bottom: 1rem;
+}
+nav {
+  background-color: #fafafa;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0.75rem;
+  border-bottom: 1px solid #ddd;
+}
+nav a {
+  color: #e63946;
+  text-decoration: none;
+  margin: 0.5rem 1rem;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: #555;
+}
+section {
+  padding: 2rem 1rem;
+  max-width: 1000px;
+  margin: auto;
+}
+.service {
+  background-color: #fff;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-left: 5px solid #e63946;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+.gallery, .videos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.gallery img, .videos iframe {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.social-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.social-buttons a {
+  text-decoration: none;
+  background-color: #e63946;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+.social-buttons a:hover {
+  background-color: #b22f3e;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+form input, form textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+form button {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+form button:hover {
+  background-color: #b22f3e;
+}
+footer {
+  background-color: #fafafa;
+  color: #888;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  border-top: 1px solid #ddd;
+}
+@media (max-width: 600px) {
+  header h1 { font-size: 2rem; }
+  nav a { font-size: 0.9rem; }
+  .service h3 { font-size: 1.1rem; }
+  .service p { font-size: 0.95rem; }
+}
